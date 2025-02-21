@@ -1,29 +1,26 @@
 ---
-icon: hand-wave
-cover: https://gitbookio.github.io/onboarding-template-images/header.png
-coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
+icon: markdown
 ---
 
-# Welcome
+# Markdown
 
-Welcome to the GitBook Starter Template! Here you'll get an overview of all the amazing features GitBook offers to help you build beautiful, interactive documentation.
+GitBook supports many different types of content, and is backed by Markdown — meaning you can copy and paste any existing Markdown files directly into the editor!
 
-You'll see some of the best parts of GitBook in action — and find help on how you can turn this template into your own.
+<figure><img src="https://gitbookio.github.io/onboarding-template-images/markdown-hero.png" alt=""><figcaption></figcaption></figure>
 
-### Jump right in
+Feel free to test it out and copy the Markdown below by hovering over the code block in the upper right, and pasting into a new line underneath.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>Create your first site</td><td></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr><tr><td><strong>Basics</strong></td><td>Learn the basics of GitBook</td><td></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Publish your docs</strong></td><td>Share your docs online</td><td></td><td></td><td><a href="getting-started/publish-your-docs.md">publish-your-docs.md</a></td></tr></tbody></table>
+```markdown
+# Heading
+
+This is some paragraph text, with a [link](https://docs.gitbook.com) to our docs. 
+
+## Heading 2
+- Point 1
+- Point 2
+- Point 3
+```
+
+{% hint style="info" %}
+If you have multiple files, GitBook makes it easy to import full repositories too — allowing you to keep your GitBook content in sync.
+{% endhint %}
